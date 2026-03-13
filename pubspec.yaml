@@ -1,0 +1,52 @@
+name: nadodi_kerala
+description: Nadodi - Kerala Tourism Explorer. Discover tourist places, hotels, restaurants, and hidden gems in Kerala.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.0
+  google_maps_flutter: ^2.6.0
+  google_places_flutter: ^2.0.8
+  geolocator: ^9.0.2
+  permission_handler: ^11.4.4
+  http: ^1.1.0
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  smooth_page_indicator: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  share_plus: ^7.2.0
+  url_launcher: ^6.2.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.2.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/icons/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
