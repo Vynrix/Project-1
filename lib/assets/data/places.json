@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Munnar",
+    "category": "Hill Station",
+    "district": "Idukki",
+    "rating": 4.8,
+    "description": "Beautiful hill station in Kerala, famous for tea gardens, pleasant climate, and trekking trails. Munnar offers stunning views and is a perfect getaway destination."
+  },
+  {
+    "id": 2,
+    "name": "Alleppey Backwaters",
+    "category": "Backwaters",
+    "district": "Alappuzha",
+    "rating": 4.7,
+    "description": "Serene backwaters perfect for houseboat rides. Experience the beauty of Kerala's natural waterways with lush paddy fields and coconut palms."
+  },
+  {
+    "id": 3,
+    "name": "Fort Kochi",
+    "category": "Historical",
+    "district": "Ernakulam",
+    "rating": 4.6,
+    "description": "Historic fort with rich cultural heritage. Features colonial architecture, Chinese fishing nets, and vibrant spice markets."
+  },
+  {
+    "id": 4,
+    "name": "Athirappilly Waterfalls",
+    "category": "Waterfall",
+    "district": "Thrissur",
+    "rating": 4.5,
+    "description": "Majestic waterfalls surrounded by lush greenery. A popular trekking destination and filming location for many movies."
+  },
+  {
+    "id": 5,
+    "name": "Varkala Beach",
+    "category": "Beach",
+    "district": "Thiruvananthapuram",
+    "rating": 4.4,
+    "description": "Cliff-side beach with golden sand and unique rock formations. Great for swimming, cliff diving, and experiencing the sunset."
+  },
+  {
+    "id": 6,
+    "name": "Bekal Fort",
+    "category": "Historical",
+    "district": "Kasaragod",
+    "rating": 4.5,
+    "description": "One of the largest and oldest forts in Kerala. Located on the beach with panoramic views of the Arabian Sea."
+  },
+  {
+    "id": 7,
+    "name": "Wayanad",
+    "category": "Hill Station",
+    "district": "Wayanad",
+    "rating": 4.6,
+    "description": "Scenic hill station with trekking trails, waterfalls, and ancient caves. Popular for adventure activities and wildlife."
+  },
+  {
+    "id": 8,
+    "name": "Kumarakom Lake",
+    "category": "Backwaters",
+    "district": "Kottayam",
+    "rating": 4.3,
+    "description": "Peaceful lake sanctuary with migratory bird species. Ideal for bird watching and boat rides."
+  }
+]

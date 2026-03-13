@@ -1,1 +1,42 @@
-
+[
+  {
+    "id": 1,
+    "name": "Secret Waterfall Trail",
+    "type": "Secret Waterfall",
+    "district": "Wayanad",
+    "difficulty": "Moderate",
+    "rating": 4.7
+  },
+  {
+    "id": 2,
+    "name": "Forest Trek Adventure",
+    "type": "Local Trek",
+    "district": "Palakkad",
+    "difficulty": "Hard",
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "name": "Hidden Viewpoint",
+    "type": "Hidden Viewpoint",
+    "district": "Idukki",
+    "difficulty": "Easy",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Village Lake Trek",
+    "type": "Village Lake",
+    "district": "Alappuzha",
+    "difficulty": "Easy",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Forest Trail Kasaragod",
+    "type": "Forest Trail",
+    "district": "Kasaragod",
+    "difficulty": "Moderate",
+    "rating": 4.4
+  }
+]

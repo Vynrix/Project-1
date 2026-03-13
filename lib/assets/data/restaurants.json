@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Spice Kitchen",
+    "cuisine": "Kerala",
+    "district": "Ernakulam",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "name": "Seafood Paradise",
+    "cuisine": "Seafood",
+    "district": "Alappuzha",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Munnar Tea House",
+    "cuisine": "Multi-cuisine",
+    "district": "Idukki",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Spice Routes",
+    "cuisine": "Indian",
+    "district": "Kochi",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Backwater Bites",
+    "cuisine": "Kerala",
+    "district": "Alappuzha",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "Fort House Cafe",
+    "cuisine": "Cafe",
+    "district": "Ernakulam",
+    "rating": 4.5
+  }
+]
