@@ -12,6 +12,7 @@ A modern, production-ready Flutter application for discovering tourist places, h
 - 💾 Bookmark your favorite places
 - 📍 Location-based recommendations
 - 🎨 Modern, intuitive UI with smooth animations
+- 📱 Cross-platform (Android & iOS)
 
 ## Project Structure
 
@@ -50,19 +51,19 @@ assets/
 │   ├── hotels.json
 │   ├── restaurants.json
 │   └── hidden_spots.json
-├── images/
-└── fonts/
 ```
 
 ## Technology Stack
 
 - **Framework**: Flutter 3.0+
-- **Language**: Dart
+- **Language**: Dart 3.0+
 - **State Management**: Provider
 - **Maps**: Google Maps Flutter
 - **Location**: Geolocator
-- **Backend Ready**: Firebase integration structure
-- **Database Ready**: JSON and Firestore support
+- **Permissions**: Permission Handler
+- **Images**: Cached Network Image
+- **Database**: JSON-based (ready for Firebase/Firestore)
+- **UI**: Material Design 3
 
 ## Getting Started
 
@@ -71,14 +72,15 @@ assets/
 - Flutter SDK 3.0 or higher
 - Dart 3.0 or higher
 - Android Studio / Xcode for emulation
+- Java 21 (for Android builds)
 - Google Maps API key (for maps functionality)
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/nadodi-kerala.git
-   cd nadodi-kerala
+   git clone https://github.com/Sreejith-codie/Nadodi.git
+   cd Nadodi
    ```
 
 2. **Install dependencies**
@@ -95,9 +97,149 @@ assets/
    flutter run
    ```
 
+### Building APK
+
+To build a release APK:
+
+```bash
+# Ensure Java 21 is set
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+
+# Build APK
+flutter build apk
+```
+
+The APK will be generated at `build/app/outputs/flutter-apk/app-release.apk`
+
 ## App Screens
 
 ### 1. Splash Screen
+Beautiful animated splash screen with Kerala-themed branding.
+
+### 2. Home Screen
+- Featured places carousel
+- Category-based navigation
+- Search functionality
+- Quick access to favorites
+
+### 3. Place Details
+- Detailed information about tourist spots
+- Photo gallery
+- Rating and reviews
+- Directions and location
+- Bookmark functionality
+
+### 4. Hidden Places
+- Exclusive collection of secret locations
+- Trekking trails and viewpoints
+- Waterfalls and natural spots
+- Community-contributed locations
+
+### 5. Saved Places
+- User's bookmarked locations
+- Offline access to saved data
+- Quick navigation
+
+### 6. Profile Screen
+- User preferences
+- App settings
+- About information
+
+## Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  http: ^1.1.0
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  google_maps_flutter: ^2.6.0
+  geolocator: ^9.0.2
+  permission_handler: ^11.0.0
+  flutter_rating_bar: ^4.0.1
+```
+
+## Development
+
+### Code Style
+- Follow Dart/Flutter best practices
+- Use `flutter analyze` for code analysis
+- Format code with `flutter format`
+
+### Testing
+```bash
+flutter test
+```
+
+### Building for Different Platforms
+
+**Android APK:**
+```bash
+flutter build apk --release
+```
+
+**Android App Bundle:**
+```bash
+flutter build appbundle --release
+```
+
+**iOS:**
+```bash
+flutter build ios --release
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Guidelines
+- Follow the existing code style
+- Add tests for new features
+- Update documentation as needed
+- Ensure compatibility with Flutter 3.0+
+
+## Data Sources
+
+The app uses JSON data files for initial content:
+- `assets/data/places.json` - Tourist places
+- `assets/data/hotels.json` - Hotels and accommodations
+- `assets/data/restaurants.json` - Restaurants
+- `assets/data/hidden_spots.json` - Hidden gems
+
+## API Integration Ready
+
+The app is structured to easily integrate with:
+- Firebase for authentication and database
+- Google Maps API for enhanced mapping
+- Weather APIs for location-based info
+- Social media sharing
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Kerala Tourism Department for inspiration
+- Flutter community for amazing framework
+- Contributors and testers
+
+## Contact
+
+For questions or support, please open an issue on GitHub.
+
+---
+
+**Built with ❤️ for Kerala Tourism**
 - Beautiful Kerala-themed splash with animated logo
 - Auto-navigation to home after 3 seconds
 
