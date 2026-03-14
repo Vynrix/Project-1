@@ -407,7 +407,7 @@ This project is licensed under the MIT License - see LICENSE.md file for details
 
 ## Support
 
-For support, email support@nadodi.com or open an issue on GitHub.
+For support, email vynrixsupport@gmail.com or open an issue on GitHub.
 
 ## Demo
 
