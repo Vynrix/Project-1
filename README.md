@@ -78,10 +78,10 @@ assets/
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Sreejith-codie/Nadodi.git
-   cd Nadodi
-   ```
+  ```bash
+  git clone https://github.com/Vynrix/Project-1.git
+  cd Project-1
+  ```
 
 2. **Install dependencies**
    ```bash
