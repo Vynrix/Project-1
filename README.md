@@ -397,7 +397,7 @@ This project is licensed under the MIT License - see LICENSE.md file for details
 
 ## Authors
 
-- **Your Name** - Initial work - [GitHub Profile](https://github.com/yourusername)
+- **Vynrix** - Initial work - [GitHub Profile](https://github.com/Vynrix)
 
 ## Acknowledgments
 
